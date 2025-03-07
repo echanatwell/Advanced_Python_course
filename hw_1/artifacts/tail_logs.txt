@@ -1,0 +1,84 @@
+Вывод с одним файлом:
+
+python tail.py -f artifacts/nl_test.txt
+artifacts/nl_test.txt
+Hello, World!
+
+It's nl.py test
+
+bla
+
+bla
+
+bla
+
+Вывод с несколькими файлами:
+
+python tail.py -f artifacts/nl_test.txt artifacts/tail_test.txt
+artifacts/nl_test.txt
+Hello, World!
+
+It's nl.py test
+
+bla
+
+bla
+
+bla
+artifacts/tail_test.txt
+Eight
+
+Nine
+
+Ten
+
+Eleven
+
+Twelve
+
+Thirteen
+
+Fourteen
+
+Fifteen
+
+Sixteen
+
+Seventeen
+
+Вывод без переданных файлов:
+python tail.py
+One
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+Eleven
+Twelve
+Thirteen
+Fourteen
+Fifteen
+Sixteen
+Seventeen
+One
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+Eleven
+Twelve
+Thirteen
+Fourteen
+Fifteen
+Sixteen
+Seventeen

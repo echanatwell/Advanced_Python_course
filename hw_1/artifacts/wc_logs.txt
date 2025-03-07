@@ -1,0 +1,18 @@
+Вывод без переданных файлов:
+
+python wc.py
+Hello world
+hi
+2 3 13
+
+Вывод с одним файлом:
+
+python wc.py -f artifacts/tail_test.txt
+17 17 122 artifacts/tail_test.txt
+
+Вывод с несколькими файлами:
+
+python wc.py -f artifacts/nl_test.txt artifacts/tail_test.txt
+5 8 45 artifacts/nl_test.txt
+17 17 122 artifacts/tail_test.txt
+total 22 25 167

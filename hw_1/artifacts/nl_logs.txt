@@ -1,0 +1,20 @@
+Вызов без переданного файла:
+python nl.py
+Hello
+1 Hello
+World
+2 World
+!
+3 !
+
+Вызов с переданным файлом:
+python nl.py -f artifacts/nl_testfile.txt
+1 Hello, World!
+
+2 It's nl.py test
+
+3 bla
+
+4 bla
+
+5 bla
