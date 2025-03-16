@@ -1,0 +1,1 @@
+There is a very simple package that can wrap text into latex-style table, images into latex-style figure and combine it into .tex file.
