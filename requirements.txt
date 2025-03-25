@@ -28,6 +28,7 @@ mdurl==0.1.2
 more-itertools==10.6.0
 msgpack==1.1.0
 nh3==0.2.21
+numpy==2.2.4
 packaging==24.2
 pbs-installer==2025.3.11
 pkginfo==1.12.1.2
